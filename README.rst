@@ -1,6 +1,6 @@
-========
-pymt_nwm
-========
+==============
+pymt_soilgrids
+==============
 
 
 .. image:: https://img.shields.io/badge/CSDMS-Basic%20Model%20Interface-green.svg
@@ -14,31 +14,14 @@ pymt_nwm
         :target: https://pymt-nwm.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://github.com/gantian127/pymt_nwm/actions/workflows/test.yml/badge.svg
-        :target: https://github.com/gantian127/pymt_nwm/actions/workflows/test.yml
-
-.. image:: https://github.com/gantian127/pymt_nwm/actions/workflows/flake8.yml/badge.svg
-        :target: https://github.com/gantian127/pymt_nwm/actions/workflows/flake8.yml
-
-.. image:: https://github.com/gantian127/pymt_nwm/actions/workflows/black.yml/badge.svg
-        :target: https://github.com/gantian127/pymt_nwm/actions/workflows/black.yml
+.. image:: https://img.shields.io/badge/License-MIT-blue.svg
+        :target: hhttps://github.com/gantian127/pymt_nwm/blob/master/LICENSE
 
 
-PyMT plugin for National Water Model data
-
-
-* Free software: MIT License
-* Documentation: https://pymt-nwm.readthedocs.io.
-
-
-
-
-========= ===================================
-Component PyMT
-========= ===================================
-
-Nwm       `from pymt.models import Nwm`
-========= ===================================
+pymt_nwm is a package that converts `nwm package <https://github.com/gantian127/nwm>`_ into a reusable,
+plug-and-play data component for `PyMT <https://pymt.readthedocs.io/en/latest/?badge=latest>`_ modeling framework.
+This allows the National Water Model datasets to be easily coupled with other datasets or models that expose
+a `Basic Model Interface <https://bmi.readthedocs.io/en/latest/>`_.
 
 ---------------
 Installing pymt
@@ -71,14 +54,13 @@ It is possible to list all of the versions of `pymt` available on your platform 
 
   conda search pymt --channel conda-forge
 
--------------------
+-------------------------
 Installing pymt_nwm
--------------------
-
-
+-------------------------
 
 To install `pymt_nwm`,
 
 .. code::
 
-  conda install pymt_nwm
+  pip install pymt_nwm
+
