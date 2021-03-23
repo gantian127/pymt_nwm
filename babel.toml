@@ -1,0 +1,30 @@
+[library]
+[library.Nwm]
+language = "python"
+library = "nwm"
+header = ""
+entry_point = "BmiNwmHs"
+
+[build]
+undef_macros = []
+define_macros = []
+libraries = []
+library_dirs = []
+include_dirs = []
+extra_compile_args = []
+
+[package]
+name = "pymt_nwm"
+requirements = [""]
+
+[info]
+github_username = "gantian127"
+package_author = "Tian Gan"
+package_author_email = "gantian127@gmail.com"
+package_license = "MIT"
+summary = "PyMT plugin for National Water Model data"
+
+[ci]
+python_version = ["3.8"]
+os = ["linux", "mac", "windows"]
+

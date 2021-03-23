@@ -1,0 +1,15 @@
+recursive-include pymt_nwm/data *
+include LICENSE
+include requirements.txt
+include *.rst
+include *.txt
+include Makefile
+include babel.toml
+recursive-include pymt_nwm *.pyx
+recursive-include docs *.py
+recursive-include docs *.rst
+recursive-include docs Makefile
+recursive-exclude meta *
+recursive-exclude recipe *
+recursive-exclude pymt_nwm *.cpp
+recursive-exclude pymt_nwm *.c
