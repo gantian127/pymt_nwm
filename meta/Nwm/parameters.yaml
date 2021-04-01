@@ -30,8 +30,8 @@ variable:
 #  name: Identifier
 #  description: The identifier of the stream reach, reservoir, or grid cell for the forecast.
 #  value:
-#    type: choice
-#    default: [5781915]
+#    type: list
+#    default: [5781915, 23982]
 #    units: 1
 init_time:
   name: Initiation time
