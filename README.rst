@@ -7,7 +7,7 @@ pymt_nwm
         :target: https://bmi.readthedocs.io/
         :alt: Basic Model Interface
 
-.. image:: https://img.shields.io/badge/recipe-pymt_nwm-green.svg
+.. .. image:: https://img.shields.io/badge/recipe-pymt_nwm-green.svg
         :target: https://anaconda.org/conda-forge/pymt_nwm
 
 .. image:: https://readthedocs.org/projects/pymt-nwm/badge/?version=latest
