@@ -10,6 +10,9 @@ plug-and-play data component for `PyMT <https://pymt.readthedocs.io/en/latest/?b
 pymt_nwm allows the National Water Model datasets to be easily coupled with other datasets or models that expose
 a `Basic Model Interface <https://bmi.readthedocs.io/en/latest/>`_.
 
+**Please note that pymt_nwm package is deprecated.**
+This package now only serves as an example to demonstrate how to create
+`CSDMS Data Component <https://csdms.colorado.edu/wiki/DataComponents>`_ for research datasets.
 
 Installation
 ------------
